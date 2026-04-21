@@ -6,9 +6,9 @@ services:
     working_dir: /app
 
     environment:
-      PLANKA_URL: https://planka.ritzenbergen.de/
-      PLANKA_USER: test
-      PLANKA_PASSWORD: R3Af$6U#oB
+      PLANKA_URL: ${PLANKA_URL}
+      PLANKA_USER: ${PLANKA_USER}
+      PLANKA_PASSWORD: ${PLANKA_PASSWORD}
 
     volumes:
       - .:/app
